@@ -44,7 +44,7 @@ body {
   transition: all 0.3s;
 }
 .btn:hover:not([disabled]) {
-  background: #222;
+  background: #001e4d;
   color: #fff;
 }
 .btn:disabled {
