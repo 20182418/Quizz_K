@@ -1,38 +1,47 @@
 const questions = [
   {
-    question: "Wich is larget animal in the world?",
+    question: "¿Cuál es la principal función del corazón humano?",
     answers: [
-      { text: "Shark", correct: false },
-      { text: "Blue whale", correct: true },
-      { text: "Elephant", correct: false },
-      { text: "Giraffe", correct: false },
+      { text: "Bombear sangre por todo el cuerpo", correct: true },
+      { text: "Filtrar los desechos del organismo", correct: false },
+      { text: "Regular la temperatura corporal", correct: false },
+      { text: "Producir hormonas", correct: false },
     ],
   },
   {
-    question: "Wich is larget animal in the world?",
+    question: "¿Cuál es el resultado de la siguiente operación? 4(3 + 2) - 6 ÷ 3",
     answers: [
-      { text: "Shark", correct: false },
-      { text: "Blue whale", correct: true },
-      { text: "Elephant", correct: false },
-      { text: "Giraffe", correct: false },
+      { text: "13", correct: false },
+      { text: "14", correct: true },
+      { text: "15", correct: false },
+      { text: "16", correct: false },
     ],
   },
   {
-    question: "Wich is larget animal in the world?",
+    question: "¿Cuál fue el resultado principal de la Revolución Francesa?",
     answers: [
-      { text: "Shark", correct: false },
-      { text: "Blue whale", correct: true },
-      { text: "Elephant", correct: false },
-      { text: "Giraffe", correct: false },
+      { text: "La caída de la monarquía absoluta", correct: true},
+      { text: "La independencia de las colonias americanas", correct: false },
+      { text: "El fin de la Segunda Guerra Mundial", correct: false },
+      { text: "El establecimiento de la Unión Europea", correct: false },
     ],
   },
   {
-    question: "Wich is larget animal in the world?",
+    question: "¿Cuál es el océano más grande del mundo?",
     answers: [
-      { text: "Shark", correct: false },
-      { text: "Blue whale", correct: true },
-      { text: "Elephant", correct: false },
-      { text: "Giraffe", correct: false },
+      { text: "Océano Ártico", correct: false },
+      { text: "Océano Atlántico", correct: false },
+      { text: "Océano Índico", correct: false },
+      { text: "Océano Pacífico", correct: true },
+    ],
+  },
+  {
+    question: "¿Cuál de las siguientes palabras es un verbo?",
+    answers: [
+      { text: "Gato", correct: false },
+      { text: "Rápido", correct: false },
+      { text: "Correr", correct: true },
+      { text: "Rojo", correct: false },
     ],
   },
 ];
