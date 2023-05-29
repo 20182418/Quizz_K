@@ -56,7 +56,7 @@ let score = 0;
 function startQuiz() {
   currentQuestionIndex = 0;
   score = 0;
-  nextButton.innerHTML = "Next";
+  nextButton.innerHTML = "Siguiente";
   showQuestion();
 }
 
@@ -105,8 +105,8 @@ function selectAnswer(e) {
 
 function showScore() {
   resetState();
-  questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
-  nextButton.innerHTML = "Play Again";
+  questionElement.innerHTML = `Tu puntaje es ${score} de ${questions.length}!`;
+  nextButton.innerHTML = "Intentalo de nuevo";
   nextButton.style.display = "block";
 }
 
