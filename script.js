@@ -9,6 +9,15 @@ const questions = [
     ],
   },
   {
+    question: "¿Cuál es la principal función del corazón humano?",
+    answers: [
+      { text: "Bombear sangre por todo el cuerpo", correct: true },
+      { text: "Filtrar los desechos del organismo", correct: false },
+      { text: "Regular la temperatura corporal", correct: false },
+      { text: "Producir hormonas", correct: false },
+    ],
+  },
+  {
     question: "¿Cuál es el resultado de la siguiente operación? 4(3 + 2) - 6 ÷ 3",
     answers: [
       { text: "13", correct: false },
