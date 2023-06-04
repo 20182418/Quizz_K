@@ -1,56 +1,182 @@
 const questions = [
   {
-    question: "¿Cuál es la principal función del corazón humano?",
+    question: "¿Cuál es el próximo número en la serie: 2, 5, 10, 17, ...?",
     answers: [
-      { text: "Bombear sangre por todo el cuerpo", correct: true },
-      { text: "Filtrar los desechos del organismo", correct: false },
-      { text: "Regular la temperatura corporal", correct: false },
-      { text: "Producir hormonas", correct: false },
+      { text: "20", correct: false },
+      { text: "22", correct: false },
+      { text: "24", correct: false },
+      { text: "26", correct: true },
     ],
   },
   {
-    question: "¿Cuál es la principal función del corazón humano?",
+    question: "¿Cuál es el patrón en la serie: 3, 6, 9, 12, ...?",
     answers: [
-      { text: "Bombear sangre por todo el cuerpo", correct: true },
-      { text: "Filtrar los desechos del organismo", correct: false },
-      { text: "Regular la temperatura corporal", correct: false },
-      { text: "Producir hormonas", correct: false },
+      { text: "Sumar 2", correct: true },
+      { text: "Sumar 3", correct: false },
+      { text: "Multiplicar por 3", correct: false },
+      { text: "Multiplicar por 4", correct: false },
     ],
   },
   {
-    question: "¿Cuál es el resultado de la siguiente operación? 4(3 + 2) - 6 ÷ 3",
+    question: "Si 3 personas pueden pintar una casa en 6 días, ¿cuántos días tomaría que 6 personas pinten la misma casa?",
     answers: [
+      { text: "2", correct: false },
+      { text: "3", correct: true },
+      { text: "4", correct: false },
+      { text: "6", correct: false },
+    ],
+  },
+  {
+    question: "Si x + 5 = 13, ¿cuál es el valor de x?",
+    answers: [
+      { text: "5", correct: false},
+      { text: "7", correct: false },
+      { text: "8", correct: true },
       { text: "13", correct: false },
+    ],
+  },
+  {
+    question: "Si un artículo tiene un precio original de $200 y se aplica un descuento del 20%, ¿cuál es el precio después del descuento?",
+    answers: [
+      { text: "40", correct: false },
+      { text: "80", correct: false },
+      { text: "120", correct: false },
+      { text: "160", correct: true },
+    ],
+  },
+  {
+    question: "¿Cuál es el resultado de la siguiente operación: (5 + 3) x 2 - 4 ÷ 2?",
+    answers: [
+      { text: "6", correct: false },
+      { text: "9", correct: false },
+      { text: "10", correct: false },
       { text: "14", correct: true },
-      { text: "15", correct: false },
+    ],
+  },
+    {
+    question: "Si 4m - 8 = 20, ¿cuál es el valor de m?",
+    answers: [
+      { text: "20", correct: false },
+      { text: "22", correct: false },
+      { text: "24", correct: false },
+      { text: "26", correct: true },
+    ],
+  },
+   {
+    question: "¿Cuál es el resultado de la siguiente operación: (4 + 6) x (8 - 2)?",
+    answers: [
+      { text: "40", correct: false },
+      { text: "48", correct: false },
+      { text: "60", correct: true },
+      { text: "80", correct: false },
+    ],
+  }, 
+   {
+    question: "Si 2/3 de un número es igual a 12, ¿cuál es el número?",
+    answers: [
+      { text: "8", correct: false },
       { text: "16", correct: false },
+      { text: "18", correct: true },
+      { text: "24", correct: false },
+    ],
+  },
+   {
+    question: "Si un triángulo tiene un ángulo recto y otro ángulo mide 30 grados, ¿cuál es la medida del tercer ángulo?",
+    answers: [
+      { text: "30 grados", correct: false },
+      { text: "45 grados", correct: false },
+      { text: "60 grados", correct: true },
+      { text: "90 grados", correct: false },
+    ],
+  }, 
+  {
+    question: "¿Cuál es la raíz cuadrada de 81?",
+    answers: [
+      { text: "7", correct: false },
+      { text: "8", correct: false },
+      { text: "9", correct: true },
+      { text: "10.25", correct: false },
     ],
   },
   {
-    question: "¿Cuál fue el resultado principal de la Revolución Francesa?",
+    question: "En una serie numérica, los primeros cuatro términos son 3, 7, 15, 31. ¿Cuál es el quinto término de la serie?",
     answers: [
-      { text: "La caída de la monarquía absoluta", correct: true},
-      { text: "La independencia de las colonias americanas", correct: false },
-      { text: "El fin de la Segunda Guerra Mundial", correct: false },
-      { text: "El establecimiento de la Unión Europea", correct: false },
+      { text: "48", correct: false },
+      { text: "63", correct: true },
+      { text: "79", correct: false },
+      { text: "95", correct: false },
     ],
   },
   {
-    question: "¿Cuál es el océano más grande del mundo?",
+    question: "¿Cuál es el siguiente número en la serie: 1, 4, 9, 16, ...?",
     answers: [
-      { text: "Océano Ártico", correct: false },
-      { text: "Océano Atlántico", correct: false },
-      { text: "Océano Índico", correct: false },
-      { text: "Océano Pacífico", correct: true },
+      { text: "20", correct: false },
+      { text: "23", correct: false },
+      { text: "25", correct: false },
+      { text: "28", correct: true },
     ],
   },
   {
-    question: "¿Cuál de las siguientes palabras es un verbo?",
+    question: "Si la secuencia de números 1, 3, 6, 10, 15, ... sigue un patrón, ¿cuál es el siguiente número en la secuencia?",
     answers: [
-      { text: "Gato", correct: false },
-      { text: "Rápido", correct: false },
-      { text: "Correr", correct: true },
-      { text: "Rojo", correct: false },
+      { text: "20", correct: false },
+      { text: "21", correct: true },
+      { text: "22", correct: false },
+      { text: "23", correct: false },
+    ],
+  },
+  {
+    question: "¿Cuál es el resultado de la siguiente operación: (12 - 4) ÷ (2 + 1) x 5?",
+    answers: [
+      { text: "10", correct: false },
+      { text: "15", correct: true },
+      { text: "20", correct: false },
+      { text: "25", correct: false },
+    ],
+  },
+  {
+    question: "Si el patrón de la secuencia es 2, 5, 10, 17, ..., ¿cuál es el siguiente número en la secuencia?",
+    answers: [
+      { text: "24", correct: true },
+      { text: "39", correct: false },
+      { text: "29", correct: false },
+      { text: "34", correct: false },
+    ],
+  },
+  {
+    question: "Describa un sinónimo para la palabra ''efímero''.",
+    answers: [
+      { text: "Perenne", correct: true },
+      { text: "Duradero", correct: false },
+      { text: "Eterno", correct: false },
+      { text: "Pasajero", correct: false },
+    ],
+  },
+  {
+    question: "Encuentre un sinónimo para el término ''obscurecer''.",
+    answers: [
+      { text: "Iluminar", correct: true },
+      { text: "Revelar", correct: false },
+      { text: "Clarificar", correct: false },
+      { text: "Opacar", correct: false },
+    ],
+  },
+  {
+    question: "¿Cuál es un sinónimo adecuado para la palabra ''pulcro''?",
+    answers: [
+      { text: "Sucio", correct: false },
+      { text: "Descuidado", correct: false },
+      { text: "Impecable", correct: true },
+      { text: "Desaliñado", correct: false },
+    ],
+  },
+  {
+    question: "¿Proporcione un antónimo para la palabra ''efusivo''.?",
+    answers: [
+      { text: "Reservado", correct: false },
+      { text: "Sereno", correct: false },
+      { text: "Moderado", correct: true },
+      { text: "Apasionado", correct: false },
     ],
   },
 ];
