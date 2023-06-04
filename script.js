@@ -11,8 +11,8 @@ const questions = [
   {
     question: "¿Cuál es el patrón en la serie: 3, 6, 9, 12, ...?",
     answers: [
-      { text: "Sumar 2", correct: true },
-      { text: "Sumar 3", correct: false },
+      { text: "Sumar 2", correct: false },
+      { text: "Sumar 3", correct: true },
       { text: "Multiplicar por 3", correct: false },
       { text: "Multiplicar por 4", correct: false },
     ],
@@ -38,10 +38,10 @@ const questions = [
   {
     question: "Si un artículo tiene un precio original de $200 y se aplica un descuento del 20%, ¿cuál es el precio después del descuento?",
     answers: [
-      { text: "40", correct: false },
-      { text: "80", correct: false },
-      { text: "120", correct: false },
-      { text: "160", correct: true },
+      { text: "$40", correct: false },
+      { text: "$80", correct: false },
+      { text: "$120", correct: false },
+      { text: "$160", correct: true },
     ],
   },
   {
@@ -56,10 +56,10 @@ const questions = [
     {
     question: "Si 4m - 8 = 20, ¿cuál es el valor de m?",
     answers: [
-      { text: "20", correct: false },
-      { text: "22", correct: false },
-      { text: "24", correct: false },
-      { text: "26", correct: true },
+      { text: "7", correct: true },
+      { text: "9", correct: false },
+      { text: "12", correct: false },
+      { text: "14", correct: false },
     ],
   },
    {
@@ -112,8 +112,8 @@ const questions = [
     answers: [
       { text: "20", correct: false },
       { text: "23", correct: false },
-      { text: "25", correct: false },
-      { text: "28", correct: true },
+      { text: "25", correct: true },
+      { text: "28", correct: false },
     ],
   },
   {
@@ -146,19 +146,19 @@ const questions = [
   {
     question: "Describa un sinónimo para la palabra ''efímero''.",
     answers: [
-      { text: "Perenne", correct: true },
+      { text: "Perenne", correct: false },
       { text: "Duradero", correct: false },
       { text: "Eterno", correct: false },
-      { text: "Pasajero", correct: false },
+      { text: "Pasajero", correct: true },
     ],
   },
   {
     question: "Encuentre un sinónimo para el término ''obscurecer''.",
     answers: [
-      { text: "Iluminar", correct: true },
+      { text: "Iluminar", correct: false },
       { text: "Revelar", correct: false },
       { text: "Clarificar", correct: false },
-      { text: "Opacar", correct: false },
+      { text: "Opacar", correct: true },
     ],
   },
   {
@@ -173,10 +173,101 @@ const questions = [
   {
     question: "¿Proporcione un antónimo para la palabra ''efusivo''.?",
     answers: [
-      { text: "Reservado", correct: false },
+      { text: "Reservado", correct: true },
       { text: "Sereno", correct: false },
-      { text: "Moderado", correct: true },
+      { text: "Moderado", correct: false },
       { text: "Apasionado", correct: false },
+    ],
+  },
+  {
+    question: "¿Cuál es el antónimo correcto para la palabra ''loable''?",
+    answers: [
+      { text: "Reprochable", correct: true },
+      { text: "Aplaudible", correct: false },
+      { text: "Meritorio", correct: false },
+      { text: "Admirable", correct: false },
+    ],
+  },
+  {
+    question: "''Agua es a sed, como comida es a ____________''.",
+    answers: [
+      { text: "Hambre", correct: true },
+      { text: "Nutrición", correct: false },
+      { text: "Alimento", correct: false },
+      { text: "Sustento", correct: false },
+    ],
+  },
+  {
+    question: "¿Cuál es un sinónimo adecuado para la palabra ''efervescente''?",
+    answers: [
+      { text: "Tranquilo", correct: false },
+      { text: "Agitado", correct: false },
+      { text: "Burbujeante", correct: true },
+      { text: "Opaco", correct: false },
+    ],
+  },
+  {
+    question: "''Libro es a leer, como película es a ____________''.",
+    answers: [
+      { text: "Cinematografía", correct: false },
+      { text: "Haber", correct: false },
+      { text: "Ver", correct: true },
+      { text: "DVD", correct: false },
+    ],
+  },
+  {
+    question: "¿Cuál es un sinónimo adecuado para la palabra ''ubérrimo''?.",
+    answers: [
+      { text: "Fértil", correct: true },
+      { text: "Escaso", correct: false },
+      { text: "Árido", correct: false },
+      { text: "Estéril", correct: false },
+    ],
+  },
+  {
+    question: "¿Cuál es el antónimo correcto para la palabra ''efímero''?.",
+    answers: [
+      { text: "Duradero", correct: true },
+      { text: "Eterno", correct: false },
+      { text: "Perenne", correct: false },
+      { text: "Continuo", correct: false },
+    ],
+  },
+  {
+    question: "''Pájaro es a ave, como pez es a ____________''.",
+    answers: [
+      { text: "Anfibio", correct: false },
+      { text: "Mamifero", correct: false },
+      { text: "Acuático", correct: true },
+      { text: "Catáceo", correct: false },
+    ],
+  },
+  {
+    question: "¿Cuál es un sinónimo adecuado para la palabra ''voraz''?",
+    answers: [
+      { text: "Hambriento", correct: true },
+      { text: "Indiferente", correct: false },
+      { text: "Desinteresado", correct: false },
+      { text: "Satisfecho", correct: false },
+    ],
+  },
+  {
+    question: "''¡Estudiantes universitarios! El éxito académico está al alcance de sus manos, pero requiere determinación y disciplina. Aprovechen al máximo sus años en la universidad, sean curiosos, participen activamente en clase y busquen oportunidades de aprendizaje adicionales. Establezcan metas claras, organicen su tiempo eficientemente y busquen el apoyo adecuado cuando lo necesiten. Recuerden, el conocimiento es poder y ustedes tienen el potencial de alcanzar grandes logros. ¡No se rindan, sigan adelante y persigan sus sueños!''  Pregunta: ¿Cuál es la clave para el éxito académico según el texto?",
+    answers: [
+      { text: "Curiosidad y participación activa en clase.", correct: false },
+      { text: "Establecer metas claras y organización del tiempo.", correct: false },
+      { text: "Buscar oportunidades de aprendizaje adicionales.", correct: false },
+      { text: "Todas las opciones anteriores.", correct: true },
+    ],
+  },
+  
+  {
+    question: "''¡Estudiantes universitarios! El éxito académico está al alcance de sus manos, pero requiere determinación y disciplina. Aprovechen al máximo sus años en la universidad, sean curiosos, participen activamente en clase y busquen oportunidades de aprendizaje adicionales. Establezcan metas claras, organicen su tiempo eficientemente y busquen el apoyo adecuado cuando lo necesiten. Recuerden, el conocimiento es poder y ustedes tienen el potencial de alcanzar grandes logros. ¡No se rindan, sigan adelante y persigan sus sueños!'' Pregunta: ¿Qué se sugiere a los estudiantes universitarios en el texto?",
+    answers: [
+      { text: "Ser indiferentes y desinteresados en clase.", correct: false },
+      { text: "Rendirse ante los desafíos académicos.", correct: false },
+      { text: "Buscar apoyo adecuado cuando sea necesario.", correct: true },
+      { text: "Limitar el aprendizaje solo a lo impartido en clase.", correct: false },
     ],
   },
 ];
