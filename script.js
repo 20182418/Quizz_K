@@ -359,6 +359,33 @@ const questions = [
       { text: "En resumen", correct: false },
     ],
   },
+  {
+    question: "¿Cuál es la función de las comillas en la siguiente oración: ''Me dijo: 'Voy a llegar tarde'''?",
+    answers: [
+      { text: "Indicar una pausa en la lectura.", correct: false },
+      { text: "Destacar una palabra o expresión.", correct: false },
+      { text: "Introducir una cita textual.", correct: true },
+      { text: "Marcar una oración interrogativa.", correct: false },
+    ],
+  },
+  {
+    question: "Texto: La entrevista periodística es un género que se utiliza para obtener información de una persona destacada en algún campo. Se caracteriza por la formulación de preguntas por parte del entrevistador y las respuestas del entrevistado. El objetivo principal es obtener datos y opiniones relevantes para transmitir al público. Por otro lado, el artículo de opinión es un tipo de texto en el cual el autor expresa su punto de vista o postura sobre un tema específico. Generalmente, se basa en argumentos y evidencias para respaldar su opinión y persuadir al lector. Pregunta: Según el texto, ¿cuál es la diferencia entre una entrevista periodística y un artículo de opinión?",
+    answers: [
+      { text: "La entrevista tiene preguntas y respuestas, mientras que el artículo de opinión presenta argumentos y evidencias.", correct: false },
+      { text: "La entrevista busca obtener información relevante, mientras que el artículo de opinión expresa el punto de vista del autor.", correct: true },
+      { text: "La entrevista se basa en datos y opiniones, mientras que el artículo de opinión se enfoca en transmitir al público.", correct: false },
+      { text: "La entrevista es un género periodístico, mientras que el artículo de opinión es un tipo de texto argumentativo.", correct: false },
+    ],
+  },
+  {
+    question: "¿Cuál de los siguientes elementos se incluye en la estructura de una ficha bibliográfica para un libro impreso?",
+    answers: [
+      { text: "URL del sitio web", correct: false },
+      { text: "Fecha de acceso", correct: false },
+      { text: "Número de páginas", correct: true },
+      { text: "Dirección del autor", correct: false },
+    ],
+  },
 ];
 
 const questionElement = document.getElementById("question");
