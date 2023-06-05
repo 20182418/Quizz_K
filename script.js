@@ -539,6 +539,186 @@ const questions = [
       { text: "Dilatación térmica", correct: false },
       ],
   },
+  {
+    question:"Un objeto se desplaza en línea recta con una velocidad de 8 m/s hacia el este. Si se considera que hacia el este es positivo y hacia el oeste es negativo, ¿cuál es la magnitud y dirección del vector velocidad?",
+    answers: [
+      { text: "Magnitud de 8 m/s hacia el este", correct: true },
+      { text: "Magnitud de 8 m/s hacia el oeste", correct: false },
+      { text: "Magnitud de 8 m/s", correct: false },
+      { text: "Magnitud de 8 m/s hacia el oeste", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes principios explica por qué un objeto sumergido en un fluido experimenta un empuje hacia arriba?",
+    answers: [
+      { text: "Principio de Arquímedes", correct: true },
+      { text: "Principio de Pascal", correct: false },
+      { text: "Principio de Bernoulli", correct: false },
+      { text: "Principio de conservación de la energía", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de las siguientes afirmaciones describe correctamente la energía cinética?",
+    answers: [
+      { text: "Es la energía asociada a la posición o altura de un objeto.", correct: false },
+      { text: "Es la energía almacenada en los enlaces químicos de una sustancia.", correct: false },
+      { text: "Es la energía relacionada con el movimiento de un objeto.", correct: true },
+      { text: "Es la energía producida por una corriente eléctrica en un circuito.", correct: false },
+      ],
+  },
+  {
+    question:"Un objeto de masa 2 kg se encuentra a una altura de 5 metros sobre el suelo. ¿Cuál es la energía potencial gravitatoria del objeto en relación al suelo?",
+    answers: [
+      { text: "10 J", correct: false },
+      { text: "15 J", correct: false },
+      { text: "20 J", correct: false },
+      { text: "25 J", correct: true },
+      ],
+  },
+  {
+    question:"¿Cuál de las siguientes afirmaciones describe correctamente el movimiento acelerado?",
+    answers: [
+      { text: "La velocidad es constante en magnitud y dirección.", correct: true },
+      { text: "La aceleración es constante en magnitud y dirección.", correct: false },
+      { text: "La aceleración varía constantemente en magnitud y dirección.", correct: false },
+      { text: "La velocidad varía constantemente en magnitud y dirección.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de las siguientes magnitudes se utiliza para medir la cantidad de materia en un objeto?",
+    answers: [
+      { text: "Masa", correct: true },
+      { text: "Peso", correct: false },
+      { text: "Volumen", correct: false },
+      { text: "Densidad", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de las siguientes afirmaciones describe correctamente la transferencia de calor por movimiento de partículas en un fluido?",
+    answers: [
+      { text: "Conducción térmica", correct: false },
+      { text: "Radiación térmica", correct: false },
+      { text: "Convección térmica", correct: true },
+      { text: "Dilatación térmica", correct: false },
+      ],
+  },
+  {
+    question:"Un automóvil se desplaza a una velocidad constante de 80 km/h durante 3 horas. ¿Cuál es la distancia total recorrida por el automóvil?",
+    answers: [
+      { text: "160 Km", correct: false },
+      { text: "140 Km", correct: false },
+      { text: "240 Km", correct: true },
+      { text: "320 Km", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de las siguientes opciones describe una característica de los seres vivos?",
+    answers: [
+      { text: "Reproducción celular", correct: true },
+      { text: "Descomposición química", correct: false },
+      { text: "Inmovilidad absoluta", correct: false },
+      { text: "Generación espontánea", correct: false },
+      ],
+  },
+  {
+    question:"¿Qué teoría propone que las especies cambian a lo largo del tiempo como resultado de la selección natural?",
+    answers: [
+      { text: "Lamarckismo", correct: false },
+      { text: "Mendelismo", correct: false },
+      { text: "Darwinismo", correct: true },
+      { text: "Lamarckismo", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál es el proceso mediante el cual los organismos autótrofos capturan la energía solar para convertirla en materia orgánica?",
+    answers: [
+      { text: "Respiración celular", correct: false },
+      { text: "Fotosíntesis", correct: true },
+      { text: "Digestión", correct: false },
+      { text: "Fermentación", correct: false },
+      ],
+  },
+  {
+    question:"¿Qué tipo de enfermedades pueden prevenirse a través de una adecuada nutrición?",
+    answers: [
+      { text: "Enfermedades respiratorias", correct: false },
+      { text: "Enfermedades cardiovasculares", correct: true },
+      { text: "Enfermedades genéticas", correct: false },
+      { text: "Enfermedades mentales", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes procesos celulares resulta en la formación de gametos haploides?",
+    answers: [
+      { text: "Mitosis", correct: false },
+      { text: "Meiosis", correct: true },
+      { text: "Fecundación", correct: false },
+      { text: "Fragmentación", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes términos se refiere a la apariencia observable de un organismo determinada por su combinación de genes?",
+    answers: [
+      { text: "Fenotipo", correct: true },
+      { text: "Genotipo", correct: false },
+      { text: "Cromosoma", correct: false },
+      { text: "Mutación", correct: false },
+      ],
+  },
+  {
+    question:"¿Qué término se utiliza para describir la diversidad de especies y ecosistemas en un determinado lugar?",
+    answers: [
+      { text: "Adaptación", correct: false },
+      { text: "Biodiversidad", correct: true },
+      { text: "Evolución", correct: false },
+      { text: "Selección natural", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes procesos metabólicos utiliza oxígeno para producir energía en forma de ATP?",
+    answers: [
+      { text: "Fotosíntesis", correct: false },
+      { text: "Respiración celular", correct: true },
+      { text: "Fermentación láctica", correct: false },
+      { text: "Fermentación alcohólica", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de las siguientes opciones es una característica de las células eucariotas?",
+    answers: [
+      { text: "Ausencia de núcleo celular", correct: false },
+      { text: "Presencia de organelos membranosos", correct: true },
+      { text: "Organización en cadenas o colonias", correct: false },
+      { text: "Tamaño celular reducido", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes factores puede contribuir a la contaminación atmosférica?",
+    answers: [
+      { text: "Uso de fertilizantes en la agricultura", correct: false },
+      { text: "Quema de combustibles fósiles", correct: true },
+      { text: "Consumo excesivo de agua", correct: false },
+      { text: "Exposición a radiaciones solares", correct: false },
+      ],
+  },
+  {
+    question:"¿Qué técnica permite la modificación de genes en organismos vivos?",
+    answers: [
+      { text: "PCR (Reacción en Cadena de la Polimerasa)", correct: false },
+      { text: "Electroforesis de ADN", correct: false },
+      { text: "Clonación de ADN", correct: false },
+      { text: "Ingeniería genética", correct: true },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes factores contribuye a la biodiversidad?",
+    answers: [
+      { text: "Extinción de especies", correct: false },
+      { text: "Fragmentación de hábitats", correct: false },
+      { text: "Especies invasoras", correct: false },
+      { text: "Conservación de ecosistemas", correct: true },
+      ],
+  },
 ];
 
 const questionElement = document.getElementById("question");
