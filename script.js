@@ -404,15 +404,6 @@ const questions = [
       { text: "{π, e, φ}", correct: false },
     ],
   },
-  {
-    question: "Un trinomio cuadrado perfecto (TCP) es una expresión algebraica que se puede factorizar en la forma (a ± b)^2, donde "a" y "b" son términos algebraicos.  Analizando las opciones proporcionadas, indique cuál se puede factorizar como el cuadrado de un binomio.",
-    answers: [
-      { text: "x^2 + 5x + 9", correct: false },
-      { text: "3x^2 - 10x + 7", correct: false},
-      { text: "2x^2 + 4x + 2", correct: false },
-      { text: "x^2 - 6x + 9", correct: true },
-    ],
-  },
 ];
 
 const questionElement = document.getElementById("question");
