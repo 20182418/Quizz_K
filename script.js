@@ -818,6 +818,114 @@ const questions = [
       { text: "No tiene importancia, ya que las enfermedades nutricionales no existen.", correct: false },
       ],
   },
+  {
+    question:"¿Cuál de las siguientes afirmaciones describe un cambio químico?",
+    answers: [
+      { text: "Cambio de estado de la materia", correct: false },
+      { text: "Cambio de color", correct: false },
+      { text: "Formación de burbujas", correct: false },
+      { text: "Combustión de un papel", correct: true },
+      ],
+  },
+  {
+    question:"¿Cuál de las siguientes opciones representa una mezcla homogénea?",
+    answers: [
+      { text: "Sal de mesa disuelta en agua", correct: true },
+      { text: "Arena y agua", correct: false },
+      { text: "Aceite y vinagre", correct: false },
+      { text: "Agua y aceite", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de las siguientes partículas subatómicas tiene una carga negativa?",
+    answers: [
+      { text: "Protón", correct: false },
+      { text: "Neutrón", correct: false },
+      { text: "Electrón", correct: true },
+      { text: "Núcleo", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes elementos es un metal alcalino?",
+    answers: [
+      { text: "Hierro (Fe)", correct: false },
+      { text: "Calcio (Ca)", correct: true },
+      { text: "Oxígeno (O)", correct: false },
+      { text: "Carbono (C)", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de las siguientes ecuaciones químicas representa una reacción de neutralización?",
+    answers: [
+      { text: "HCl + NaOH → NaCl + H2O", correct: true },
+      { text: "CH4 + O2 → CO2 + H2O", correct: false },
+      { text: "Fe + S → FeS", correct: false },
+      { text: "H2 + O2 → H2O", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de las siguientes opciones representa la masa molar de un elemento?",
+    answers: [
+      { text: "La masa de un átomo de ese elemento", correct: false },
+      { text: "La masa de un mol de átomos de ese elemento", correct: true },
+      { text: "La masa de un ion de ese elemento", correct: false },
+      { text: "La masa de un gramo de ese elemento", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de las siguientes sustancias actúa como una base en una reacción química?",
+    answers: [
+      { text: "HCl (ácido clorhídrico)", correct: false },
+      { text: "NaOH (hidróxido de sodio)", correct: true },
+      { text: "CO2 (dióxido de carbono)", correct: false },
+      { text: "H2SO4 (ácido sulfúrico)", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de las siguientes ecuaciones químicas representa una reacción de oxidación-reducción?",
+    answers: [
+      { text: "NaCl + AgNO3 → NaNO3 + AgCl", correct: false },
+      { text: "CaCO3 → CaO + CO2", correct: false },
+      { text: "H2O → H2 + O2", correct: false },
+      { text: "Fe + CuSO4 → FeSO4 + Cu", correct: true },
+      ],
+  },
+  {
+    question:"¿Cuál de las siguientes ecuaciones químicas representa la formación de una sal?",
+    answers: [
+      { text: "H2O + CO2 → H2CO3", correct: false },
+      { text: "NaCl + H2O → NaOH + HCl", correct: false },
+      { text: "NH3 + HCl → NH4Cl", correct: true },
+      { text: "C6H12O6 → CO2 + H2O", correct: false },
+      ],
+  },
+  {
+    question:"Durante la síntesis del amoníaco (NH3) a partir de nitrógeno (N2) e hidrógeno (H2), se debe balancear la siguiente ecuación química:  __ N2 + __ H2 → __ NH3",
+    answers: [
+      { text: "1 N2 + 2 H2 → 2 NH3", correct: true },
+      { text: "2 N2 + 3 H2 → 2 NH3", correct: false },
+      { text: "3 N2 + 1 H2 → 2 NH3", correct: false },
+      { text: "4 N2 + 6 H2 → 4 NH3", correct: false },
+      ],
+  },
+  {
+    question:"En la siguiente reacción química, identifica cuál sustancia se oxida y cuál se reduce:  Cu(s) + 2AgNO3(aq) → Cu(NO3)2(aq) + 2Ag(s)",
+    answers: [
+      { text: "Cu(s) se oxida, AgNO3(aq) se reduce.", correct: true },
+      { text: "Cu(s) se reduce, AgNO3(aq) se oxida.", correct: false },
+      { text: "Cu(NO3)2(aq) se oxida, Ag(s) se reduce.", correct: false },
+      { text: "Cu(NO3)2(aq) se reduce, Ag(s) se oxida.", correct: false },
+      ],
+  },
+  {
+    question:"Identifica el agente reductor en la siguiente reacción química:  2Na(s) + Cl2(g) → 2NaCl(s)",
+    answers: [
+      { text: "Na(s)", correct: true },
+      { text: "Cl2(g)", correct: false },
+      { text: "NaCl(s)", correct: false },
+      { text: "No hay agente reductor en esta reacción.", correct: false },
+      ],
+  },
 ];
 
 const questionElement = document.getElementById("question");
