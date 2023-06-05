@@ -578,8 +578,8 @@ const questions = [
   {
     question:"¿Cuál de las siguientes afirmaciones describe correctamente el movimiento acelerado?",
     answers: [
-      { text: "La velocidad es constante en magnitud y dirección.", correct: true },
-      { text: "La aceleración es constante en magnitud y dirección.", correct: false },
+      { text: "La velocidad es constante en magnitud y dirección.", correct: false },
+      { text: "La aceleración es constante en magnitud y dirección.", correct: true },
       { text: "La aceleración varía constantemente en magnitud y dirección.", correct: false },
       { text: "La velocidad varía constantemente en magnitud y dirección.", correct: false },
       ],
