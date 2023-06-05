@@ -926,6 +926,114 @@ const questions = [
       { text: "No hay agente reductor en esta reacción.", correct: false },
       ],
   },
+  {
+    question:"¿Cuál fue uno de los factores clave que permitió el surgimiento del Renacimiento en Europa?",
+    answers: [
+      { text: "La difusión de la imprenta.", correct: false },
+      { text: "El establecimiento de los imperios coloniales.", correct: false },
+      { text: "El declive del sistema feudal.", correct: true },
+      { text: "El auge del comercio de especias.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál fue el principal conflicto bélico de la Guerra Fría que tuvo lugar en el sureste asiático?",
+    answers: [
+      { text: "La Guerra de Vietnam.", correct: true },
+      { text: "La Guerra de Corea.", correct: false },
+      { text: "La Crisis de los Misiles de Cuba.", correct: false },
+      { text: "La Guerra de las Malvinas.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál fue una de las consecuencias más significativas de la Revolución Industrial en Europa?",
+    answers: [
+      { text: "El fortalecimiento de los sistemas monárquicos.", correct: false },
+      { text: "El crecimiento de la clase obrera y la lucha por los derechos laborales.", correct: true },
+      { text: "La expansión del comercio marítimo.", correct: false },
+      { text: "La consolidación de los imperios coloniales europeos.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de las siguientes situaciones desencadenó la invasión de Estados Unidos a Afganistán en 2001?",
+    answers: [
+      { text: "El derrocamiento del régimen talibán por parte de los afganos.", correct: false },
+      { text: "El ataque terrorista del 11 de septiembre contra las Torres Gemelas.", correct: true },
+      { text: "La participación de Afganistán en la Guerra del Golfo.", correct: false },
+      { text: "El conflicto entre Afganistán y Pakistán por disputas territoriales.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes líderes fue una figura clave en la desaparición de la Unión Soviética y el fin de la Guerra Fría?",
+    answers: [
+      { text: "Joseph Stalin.", correct: false },
+      { text: "Vladimir Lenin.", correct: false },
+      { text: "Mikhail Gorbachev.", correct: true },
+      { text: "Nikita Khrushchev.", correct: false },
+      ],
+  },
+  {
+    question:"Durante la guerra fría ¿Cuál fue el nombre del programa espacial liderado por Estados Unidos que tuvo como objetivo enviar un hombre a la Luna durante la Guerra Fría?",
+    answers: [
+      { text: "Proyecto Mercury.", correct: false },
+      { text: "Programa Apolo.", correct: true },
+      { text: "Proyecto Gemini.", correct: false },
+      { text: "Programa Sputnik.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes acontecimientos marcó el inicio de la transición democrática en México en la década de 1990?",
+    answers: [
+      { text: "La firma del Tratado de Libre Comercio de América del Norte (TLCAN).", correct: true },
+      { text: "La nacionalización de la industria petrolera.", correct: false },
+      { text: "La creación del Instituto Nacional Electoral (INE).", correct: false },
+      { text: "El levantamiento del Ejército Zapatista de Liberación Nacional (EZLN).", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál fue uno de los principales aspectos del régimen de Porfirio Díaz en México?",
+    answers: [
+      { text: "La promoción de la reforma agraria.", correct: false },
+      { text: "La implementación de políticas obreras y sindicales.", correct: false },
+      { text: "El fomento de la inversión extranjera y el desarrollo económico.", correct: true },
+      { text: "La implementación de una política exterior neutral.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes acontecimientos fue un factor determinante en el proceso de independencia de México?",
+    answers: [
+      { text: "La unión de las agrupaciones caudillitas en el Norte y Sur del país. ", correct: false },
+      { text: "La Constitución de Cádiz.", correct: true },
+      { text: "La Expedición de los 30.000.", correct: false },
+      { text: "Las alianzas entre agrupaciones indígenas subyugadas por la tiranía de los penisulares. ", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál fue una de las principales consecuencias de la intervención francesa en México?",
+    answers: [
+      { text: "La firma del Tratado de Guadalupe Hidalgo.", correct: false },
+      { text: "La instauración del régimen de Porfirio Díaz.", correct: false },
+      { text: "La consolidación del Segundo Imperio Mexicano.", correct: true },
+      { text: "La promulgación de la Constitución de 1857.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes presidentes mexicanos implementó la estrategia de seguridad conocida como ''Guerra contra el narcotráfico''?",
+    answers: [
+      { text: "Miguel de la Madrid.", correct: false },
+      { text: "Vicente Fox", correct: false },
+      { text: "Felipe Calderón", correct: true },
+      { text: "López Obrador", correct: false },
+      ],
+  },
+  {
+    question:"Durante el periodo revolucionario en México, se promulgó una nueva constitución que buscaba establecer los derechos y la organización política del país. ¿Cuál de las siguientes características NO se encuentra presente en la Constitución de 1917?",
+    answers: [
+      { text: "La protección de los derechos laborales.", correct: false },
+      { text: "La redistribución de tierras y la garantía de la propiedad ejidal.", correct: false },
+      { text: "Elecciones libres y democráticas cada 6 años.", correct: true },
+      { text: "La separación Iglesia-Estado y la restricción de la influencia eclesiástica en la educación.", correct: false },
+      ],
+  },
 ];
 
 const questionElement = document.getElementById("question");
