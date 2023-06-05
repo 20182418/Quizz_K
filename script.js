@@ -394,7 +394,17 @@ const questions = [
       { text: "Organización lógica de ideas", correct: false },
       { text: "Variedad en la estructura de las oraciones", correct: false },
       ],
+  },
+  {
+    question:"Los números racionales son aquellos que se pueden expresar como fracciones o decimales finitos o periódicos. Identifique cuál de estos números cumplen con esta característica",
+    answers: [
+      { text: "{√2, √3, √5}", correct: false },
+      { text: "{-3, -2, -1}", correct: false },
+      { text: "{0, 1/2, 3/4}", correct: true },
+      { text: "{π, e, φ}", correct: false },
+      ],
   }
+  
 ];
 
 const questionElement = document.getElementById("question");
