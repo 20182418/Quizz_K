@@ -386,6 +386,15 @@ const questions = [
       { text: "Dirección del autor", correct: false },
     ],
   },
+  {
+    question:"Vocabulario técnico y especializado. La adecuación en un texto se refiere a utilizar el lenguaje apropiado al contexto y a los destinatarios. En muchos casos, es necesario emplear un vocabulario técnico y especializado que sea relevante para el tema del texto y comprensible para el público al que se dirige.",
+    answers: [
+      { text: "Uso de sinónimos y antónimos", correct: false },
+      { text: "Vocabulario técnico y especializado", correct: true },
+      { text: "Organización lógica de ideas", correct: false },
+      { text: "Variedad en la estructura de las oraciones", correct: false },
+      ],
+  }
 ];
 
 const questionElement = document.getElementById("question");
