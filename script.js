@@ -404,7 +404,6 @@ const questions = [
       { text: "{π, e, φ}", correct: false },
       ],
   }
-  
 ];
 
 const questionElement = document.getElementById("question");
