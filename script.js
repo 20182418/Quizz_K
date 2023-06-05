@@ -1034,6 +1034,105 @@ const questions = [
       { text: "La separación Iglesia-Estado y la restricción de la influencia eclesiástica en la educación.", correct: false },
       ],
   },
+  {
+    question:"¿Qué capa de la atmósfera es responsable de la protección contra la radiación ultravioleta del sol?",
+    answers: [
+      { text: "Estratosfera.", correct: true },
+      { text: "Troposfera.", correct: false },
+      { text: "Termosfera.", correct: false },
+      { text: "Mesosfera.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes recursos naturales es renovable?",
+    answers: [
+      { text: "Petróleo.", correct: false },
+      { text: "Carbón.", correct: false },
+      { text: "Madera.", correct: true },
+      { text: "Gas natural.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes términos se refiere a la cantidad total de personas que viven en un área determinada?",
+    answers: [
+      { text: "Población absoluta.", correct: true },
+      { text: "Densidad poblacional.", correct: false },
+      { text: "Asentamientos humanos.", correct: false },
+      { text: "Riesgos poblacionales.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes factores puede impulsar los movimientos migratorios?",
+    answers: [
+      { text: "Cambios climáticos.", correct: false },
+      { text: "Desarrollo económico.", correct: false },
+      { text: "Guerras y conflictos.", correct: false },
+      { text: "Todos los anteriores.", correct: true },
+      ],
+  },
+  {
+    question:"¿Cuál de las siguientes actividades económicas es más común en áreas rurales de México?",
+    answers: [
+      { text: "Turismo.", correct: false },
+      { text: "Manufactura.", correct: false },
+      { text: "Agricultura.", correct: true },
+      { text: "Servicios financieros.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes espacios geográficos es considerado como soberanía nacional de México?",
+    answers: [
+      { text: "Islas Malvinas.", correct: false },
+      { text: "Islas Galápagos.", correct: false },
+      { text: "Islas Canarias.", correct: false },
+      { text: "Islas Revillagigedo.", correct: true },
+      ],
+  },
+  {
+    question:"¿Cuál de las siguientes líneas imaginarias divide la Tierra en hemisferio occidental y oriental?",
+    answers: [
+      { text: "Ecuador.", correct: false },
+      { text: "Meridiano de Greenwich.", correct: true },
+      { text: "Trópico de Cáncer.", correct: false },
+      { text: "Trópico de Capricornio.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes minerales es uno de los principales recursos mineros de México?",
+    answers: [
+      { text: "Oro.", correct: false },
+      { text: "Hierro.", correct: false },
+      { text: "Uranio.", correct: false },
+      { text: "Cobre.", correct: true },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes sistemas montañosos es considerado el más alto del mundo?",
+    answers: [
+      { text: "Los Andes.", correct: false },
+      { text: "Los Alpes.", correct: false },
+      { text: "El Himalaya.", correct: true },
+      { text: "Las Montañas Rocosas.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes usos horarios corresponde a la Ciudad de México?",
+    answers: [
+      { text: "GMT-3.", correct: false },
+      { text: "GMT-5.", correct: true },
+      { text: "GMT-7.", correct: false },
+      { text: "GMT-9.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes océanos baña las costas occidentales de México?",
+    answers: [
+      { text: "Océano Atlántico.", correct: false },
+      { text: "Océano Índico.", correct: false },
+      { text: "Océano Pacífico.", correct: true },
+      { text: "Océano Ártico.", correct: false },
+      ],
+  },
 ];
 
 const questionElement = document.getElementById("question");
