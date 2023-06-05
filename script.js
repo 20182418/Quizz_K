@@ -260,7 +260,6 @@ const questions = [
       { text: "Todas las opciones anteriores.", correct: true },
     ],
   },
-
   {
     question: "''¡Estudiantes universitarios! El éxito académico está al alcance de sus manos, pero requiere determinación y disciplina. Aprovechen al máximo sus años en la universidad, sean curiosos, participen activamente en clase y busquen oportunidades de aprendizaje adicionales. Establezcan metas claras, organicen su tiempo eficientemente y busquen el apoyo adecuado cuando lo necesiten. Recuerden, el conocimiento es poder y ustedes tienen el potencial de alcanzar grandes logros. ¡No se rindan, sigan adelante y persigan sus sueños!'' Pregunta: ¿Qué se sugiere a los estudiantes universitarios en el texto?",
     answers: [
@@ -268,6 +267,33 @@ const questions = [
       { text: "Rendirse ante los desafíos académicos.", correct: false },
       { text: "Buscar apoyo adecuado cuando sea necesario.", correct: true },
       { text: "Limitar el aprendizaje solo a lo impartido en clase.", correct: false },
+    ],
+  },
+  {
+    question: "''En el oscuro rincón de la biblioteca universitaria, Ana descubrió un antiguo libro encuadernado en piel. Con manos temblorosas, abrió sus páginas y fue transportada a un mundo de fantasía y misterio. Las palabras cobraron vida, personajes surgieron y el aroma de aventuras llenó el aire. Cada capítulo era un portal a nuevas dimensiones, donde la imaginación se desplegaba sin límites. Ana se convirtió en una exploradora de universos paralelos, descubriendo secretos ancestrales y desentrañando enigmas ocultos. La lectura se convirtió en su pasaporte a la sabiduría y la evasión de la realidad. Se sumergió en las palabras con avidez, dejando que los libros la envolvieran como un manto protector contra el tiempo. En cada página encontró la magia de los sueños y la perspectiva de nuevos horizontes. Así, Ana comprendió que la verdadera universidad se encontraba en la biblioteca, donde cada libro era un profesor y cada palabra, una lección de vida.''  Pregunta: ¿Qué descubrió Ana en el oscuro rincón de la biblioteca universitaria?",
+    answers: [
+      { text: "Un antiguo libro encuadernado en piel.", correct: false },
+      { text: "Un mundo de fantasía y misterio.", correct: false },
+      { text: "Nuevas dimensiones y secretos ancestrales.", correct: false },
+      { text: "Todas las opciones anteriores.", correct: true },
+    ],
+  },
+  {
+    question: "''En el oscuro rincón de la biblioteca universitaria, Ana descubrió un antiguo libro encuadernado en piel. Con manos temblorosas, abrió sus páginas y fue transportada a un mundo de fantasía y misterio. Las palabras cobraron vida, personajes surgieron y el aroma de aventuras llenó el aire. Cada capítulo era un portal a nuevas dimensiones, donde la imaginación se desplegaba sin límites. Ana se convirtió en una exploradora de universos paralelos, descubriendo secretos ancestrales y desentrañando enigmas ocultos. La lectura se convirtió en su pasaporte a la sabiduría y la evasión de la realidad. Se sumergió en las palabras con avidez, dejando que los libros la envolvieran como un manto protector contra el tiempo. En cada página encontró la magia de los sueños y la perspectiva de nuevos horizontes. Así, Ana comprendió que la verdadera universidad se encontraba en la biblioteca, donde cada libro era un profesor y cada palabra, una lección de vida'' Pregunta: ¿Qué papel desempeñó la lectura en la vida de Ana según el texto?",
+    answers: [
+      { text: "Evadirse de la realidad y encontrar sabiduría.", correct: false },
+      { text: "Convertirse en una exploradora de universos paralelos.", correct: false },
+      { text: "Sumergirse en palabras como un manto protector.", correct: false },
+      { text: "Todas las opciones anteriores.", correct: true },
+    ],
+  },
+  {
+    question: "¿Cuál es la función gramatical de la palabra destacada en la siguiente oración: ''El libro ''que'' compré ayer es muy interesante.''?",
+    answers: [
+      { text: "Sustantivo", correct: false },
+      { text: "Pronombre relativo", correct: true },
+      { text: "Adjetivo", correct: false },
+      { text: "Verbo", correct: false },
     ],
   },
 ];
