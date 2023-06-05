@@ -296,6 +296,69 @@ const questions = [
       { text: "Verbo", correct: false },
     ],
   },
+  {
+    question: "¿Cuál de los siguientes nexos indica una condición o una restricción?",
+    answers: [
+      { text: "Por tanto", correct: false },
+      { text: "A pesar de", correct: true },
+      { text: "En cambio", correct: false },
+      { text: "Además", correct: false },
+    ],
+  },
+  {
+    question: "¿Cuál es la función de los dos puntos en la siguiente oración: ''El profesor hizo hincapié en lo siguiente: la importancia de la educación.''?",
+    answers: [
+      { text: "Separar elementos de una enumeración.", correct: false },
+      { text: "Introducir una explicación o aclaración.", correct: false },
+      { text: "Marcar una pausa antes de una cita o ejemplo.", correct: true },
+      { text: "Indicar una conclusión o resultado.", correct: false },
+    ],
+  },
+  {
+    question: "Texto: El cine es una forma de arte que combina imágenes en movimiento, música, diálogos y efectos visuales para contar una historia. El cine descriptivo se caracteriza por presentar una narración detallada de los eventos y escenas, enfocándose en los aspectos visuales y sensoriales para crear una imagen vívida en la mente del espectador. Por otro lado, el cine argumentativo busca persuadir al espectador a través de la presentación de argumentos sólidos y convincentes. Utiliza el diálogo y la confrontación de ideas para transmitir un mensaje y convencer al público. Finalmente, el cine expositivo tiene como objetivo informar y educar al espectador. Presenta información de manera objetiva y clara, utilizando recursos como documentales y programas educativos.  Pregunta: Según el texto, ¿cuál es la característica principal del cine argumentativo?",
+    answers: [
+      { text: "Enfocarse en los aspectos visuales y sensoriales.", correct: false },
+      { text: "Contar una historia con detalles descriptivos.", correct: false },
+      { text: "Persuadir al espectador a través de argumentos sólidos.", correct: true },
+      { text: "Informar y educar al espectador de manera objetiva.", correct: false },
+    ],
+  },
+  {
+    question: "¿Cuál de los siguientes elementos NO se incluye en la estructura de una ficha bibliográfica?",
+    answers: [
+      { text: "Autor", correct: false },
+      { text: "Título del libro", correct: false },
+      { text: "Editorial", correct: false },
+      { text: "Género literario", correct: true },
+    ],
+  },
+  {
+    question: "¿Cuál de los siguientes recursos contribuye a la cohesión en un texto?",
+    answers: [
+      { text: "Uso adecuado de nexos y conectores.", correct: true },
+      { text: "Variedad de vocabulario y figuras literarias.", correct: false },
+      { text: "Organización de ideas y estructura del texto.", correct: false },
+      { text: "Elección de un tema adecuado al contexto.", correct: false },
+    ],
+  },
+  {
+    question: "Identifica la oración en voz pasiva.",
+    answers: [
+      { text: "El perro persigue al gato.", correct: false },
+      { text: "El libro fue escrito por Ana.", correct: true },
+      { text: "Los niños juegan en el parque.", correct: false },
+      { text: "El profesor explica la lección.", correct: false },
+    ],
+  },
+  {
+    question: "¿Cuál de los siguientes nexos introduce una consecuencia o resultado?",
+    answers: [
+      { text: "Por tanto", correct: true },
+      { text: "Aunque", correct: false },
+      { text: "Sin embargo", correct: false },
+      { text: "En resumen", correct: false },
+    ],
+  },
 ];
 
 const questionElement = document.getElementById("question");
