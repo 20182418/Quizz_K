@@ -387,7 +387,7 @@ const questions = [
     ],
   },
   {
-    question:"Vocabulario técnico y especializado. La adecuación en un texto se refiere a utilizar el lenguaje apropiado al contexto y a los destinatarios. En muchos casos, es necesario emplear un vocabulario técnico y especializado que sea relevante para el tema del texto y comprensible para el público al que se dirige.",
+    question:"¿Cuál de los siguientes elementos contribuye a la adecuación de un texto?",
     answers: [
       { text: "Uso de sinónimos y antónimos", correct: false },
       { text: "Vocabulario técnico y especializado", correct: true },
@@ -396,7 +396,7 @@ const questions = [
       ],
   },
   {
-    question:"Los números racionales son aquellos que se pueden expresar como fracciones o decimales finitos o periódicos. Identifique cuál de estos números cumplen con esta característica",
+    question:"¿Cuál de los siguientes conjuntos de números pertenece a los números racionales?",
     answers: [
       { text: "{√2, √3, √5}", correct: false },
       { text: "{-3, -2, -1}", correct: false },
