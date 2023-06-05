@@ -754,7 +754,16 @@ const questions = [
       { text: "La ecología se ocupa de los aspectos morales de la sociedad.", correct: false },
       { text: "La ética y la ecología son términos intercambiables y se refieren a lo mismo.", correct: false },
       ],
-  },
+  },  
+  {
+    question:"¿Cuál de las siguientes opciones representa un tipo de violencia?",
+    answers: [
+      { text: "Violencia verbal", correct: false },
+      { text: "Violencia física", correct: false },
+      { text: "Violencia psicológica", correct: false },
+      { text: "Todas las opciones anteriores son correctas.", correct: true },
+      ],
+  },  
   {
     question:"¿Cuál es el concepto de sistema democrático?",
     answers: [
