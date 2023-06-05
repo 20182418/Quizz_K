@@ -719,6 +719,105 @@ const questions = [
       { text: "Conservación de ecosistemas", correct: true },
       ],
   },
+  {
+    question:"¿Cuál es la diferencia entre ética y moral?",
+    answers: [
+      { text: "La ética se refiere a las normas de conducta individual, mientras que la moral se refiere a las normas de conducta social.", correct: true },
+      { text: "La ética se refiere a las normas de conducta social, mientras que la moral se refiere a las normas de conducta individual.", correct: false },
+      { text: "La ética se refiere al comportamiento personal, mientras que la moral se refiere al comportamiento profesional.", correct: false },
+      { text: "La ética y la moral son términos intercambiables y se refieren a lo mismo.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál es la importancia de la resolución de conflictos en la convivencia?",
+    answers: [
+      { text: "Permite evitar los conflictos y mantener la armonía en las relaciones interpersonales.", correct: false },
+      { text: "Ayuda a fortalecer las habilidades de negociación y comunicación.", correct: false },
+      { text: "Promueve el desarrollo de la empatía y la tolerancia.", correct: false },
+      { text: "Todas las opciones anteriores son correctas.", correct: true },
+      ],
+  },
+  {
+    question:"¿Qué implica la libertad con responsabilidad?",
+    answers: [
+      { text: "Tener la capacidad de actuar de acuerdo con nuestras propias decisiones, considerando las consecuencias de nuestros actos.", correct: true },
+      { text: "Tener total libertad sin ninguna responsabilidad.", correct: false },
+      { text: "Actuar sin considerar las consecuencias de nuestros actos.", correct: false },
+      { text: "No tener restricciones ni normas que limiten nuestras acciones.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál es la relación entre ética y ecología?",
+    answers: [
+      { text: "La ética se preocupa por la conservación del medio ambiente.", correct: true },
+      { text: "La ética no tiene relación con la ecología.", correct: false },
+      { text: "La ecología se ocupa de los aspectos morales de la sociedad.", correct: false },
+      { text: "La ética y la ecología son términos intercambiables y se refieren a lo mismo.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál es el concepto de sistema democrático?",
+    answers: [
+      { text: "Un sistema de gobierno en el cual el poder político se concentra en una sola persona.", correct: false },
+      { text: "Un sistema de gobierno en el cual el poder político se divide entre varias personas o instituciones.", correct: true },
+      { text: "Un sistema de gobierno en el cual el poder político se hereda por línea de sangre.", correct: false },
+      { text: "Un sistema de gobierno en el cual el poder político se elige por sorteo.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál es el concepto de derechos humanos?",
+    answers: [
+      { text: "Normas y principios que reconocen la dignidad y los derechos fundamentales de todas las personas.", correct: true },
+      { text: "Reglas establecidas por el gobierno para limitar las acciones de los ciudadanos.", correct: false },
+      { text: "Normas y principios que solo se aplican a los líderes políticos.", correct: false },
+      { text: "Normas y principios que solo se aplican a los líderes políticos.", correct: false },
+      ],
+  },
+  {
+    question:"¿Qué implica la convivencia democrática?",
+    answers: [
+      { text: "Respeto a las diferencias y reconocimiento de la igualdad de derechos.", correct: true },
+      { text: "Imposición de ideas y rechazo hacia aquellos que piensan diferente.", correct: false },
+      { text: "Exclusión de ciertos grupos de la sociedad.", correct: false },
+      { text: "Apoyo incondicional a las decisiones del gobierno.", correct: false },
+      ],
+  },
+  {
+    question:"¿Qué se entiende por niñez y adolescencia?",
+    answers: [
+      { text: "La etapa de la vida que va desde el nacimiento hasta los 18 años.", correct: true },
+      { text: "La etapa de la vida que va desde los 18 hasta los 30 años.", correct: false },
+      { text: "La etapa de la vida que va desde los 30 hasta los 60 años.", correct: false },
+      { text: "La etapa de la vida que va desde los 30 hasta los 60 años.", correct: false },
+      ],
+  },
+  {
+    question:"¿Qué son los riesgos de la adolescencia?",
+    answers: [
+      { text: "Situaciones que pueden poner en peligro la integridad física y emocional de los jóvenes.", correct: true },
+      { text: "Situaciones que solo afectan a los adultos.", correct: false },
+      { text: "Situaciones que no representan ningún peligro para los jóvenes.", correct: false },
+      { text: "Situaciones que solo ocurren durante la infancia.", correct: false },
+      ],
+  },
+  {
+    question:"¿Qué se entiende por capacidad de asertividad?",
+    answers: [
+      { text: "La habilidad para comunicarse de manera clara y respetuosa, expresando opiniones y defendiendo los propios derechos.", correct: true },
+      { text: "La falta de habilidad para comunicarse de manera efectiva.", correct: false },
+      { text: "La tendencia a imponer ideas y opiniones sin considerar las de los demás.", correct: false },
+      { text: "La falta de autoconfianza y seguridad en uno mismo.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál es la importancia de la prevención de enfermedades nutricionales?",
+    answers: [
+      { text: "Promover una alimentación saludable y equilibrada para prevenir enfermedades relacionadas con la nutrición.", correct: true },
+      { text: "Limitar la ingesta de alimentos y mantener una dieta estricta.", correct: false },
+      { text: "Ignorar la importancia de una buena nutrición en la salud.", correct: false },
+      { text: "No tiene importancia, ya que las enfermedades nutricionales no existen.", correct: false },
+      ],
+  },
 ];
 
 const questionElement = document.getElementById("question");
