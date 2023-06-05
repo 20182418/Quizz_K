@@ -387,6 +387,15 @@ const questions = [
     ],
   },
   {
+    question: "Es la narración de una vida o parte de ella, escrita por el propio protagonista, mostrando su nacimiento, sus logros, sus fracasos, sus gustos, etc.  Estamos hablando de:",
+    answers: [
+      { text: "crónica", correct: false },
+      { text: "narración", correct: false },
+      { text: "autobiografía", correct: true },
+      { text: "nota", correct: false },
+    ],
+  },
+  {
     question:"¿Cuál de los siguientes elementos contribuye a la adecuación de un texto?",
     answers: [
       { text: "Uso de sinónimos y antónimos", correct: false },
