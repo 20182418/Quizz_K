@@ -386,24 +386,6 @@ const questions = [
       { text: "Dirección del autor", correct: false },
     ],
   },
-  {
-    question: "Vocabulario técnico y especializado. La adecuación en un texto se refiere a utilizar el lenguaje apropiado al contexto y a los destinatarios. En muchos casos, es necesario emplear un vocabulario técnico y especializado que sea relevante para el tema del texto y comprensible para el público al que se dirige.",
-    answers: [
-      { text: "Uso de sinónimos y antónimos", correct: false },
-      { text: "Vocabulario técnico y especializado", correct: true },
-      { text: "Organización lógica de ideas", correct: false },
-      { text: "Variedad en la estructura de las oraciones", correct: false },
-    ],
-  },
-  {
-    question: "{0, 1/2, 3/4}. Los números racionales son aquellos que se pueden expresar como fracciones o decimales finitos o periódicos.",
-    answers: [
-      { text: "{√2, √3, √5}", correct: false },
-      { text: "{-3, -2, -1}", correct: false},
-      { text: "{0, 1/2, 3/4}", correct: true },
-      { text: "{π, e, φ}", correct: false },
-    ],
-  },
 ];
 
 const questionElement = document.getElementById("question");
