@@ -416,8 +416,8 @@ const questions = [
   {
     question:"¿Cuál de las siguientes medidas de tendencia central puede ser afectada por valores extremos (outliers)?",
     answers: [
-      { text: "Media", correct: false },
-      { text: "Mediana", correct: true },
+      { text: "Media", correct: true },
+      { text: "Mediana", correct: false },
       { text: "Moda", correct: false },
       { text: "Ninguna de las anteriores", correct: false },
       ],
