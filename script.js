@@ -403,7 +403,142 @@ const questions = [
       { text: "{0, 1/2, 3/4}", correct: true },
       { text: "{π, e, φ}", correct: false },
       ],
-  }
+  },
+  {
+    question:"¿Cuál de los siguientes conjuntos de números pertenece a los números racionales?",
+    answers: [
+      { text: "{x^2 + 5x + 9}", correct: false },
+      { text: "3x^2 - 10x + 7", correct: false },
+      { text: "2x^2 + 4x + 2", correct: false },
+      { text: "x^2 - 6x + 9", correct: true },
+      ],
+  },
+  {
+    question:"¿Cuál de las siguientes medidas de tendencia central puede ser afectada por valores extremos (outliers)?",
+    answers: [
+      { text: "Media", correct: false },
+      { text: "Mediana", correct: true },
+      { text: "Moda", correct: false },
+      { text: "Ninguna de las anteriores", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes triángulos es un triángulo isósceles?",
+    answers: [
+      { text: "Triángulo equilátero", correct: false },
+      { text: "Triángulo escaleno", correct: false },
+      { text: "Triángulo rectángulo", correct: false },
+      { text: "Triángulo con dos lados de igual longitud", correct: true },
+      ],
+  },
+  {
+    question:"¿Cuál es el resultado de la siguiente operación: (3/4) ÷ (2/5)?",
+    answers: [
+      { text: "15/8", correct: true },
+      { text: "3/8", correct: false },
+      { text: "8/15", correct: false },
+      { text: "4/5", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál es la solución real de la ecuación cuadrática x^2 - 5x + 6 = 0?",
+    answers: [
+      { text: "x = -1", correct: false },
+      { text: "x = 2", correct: false },
+      { text: "x = 3", correct: true },
+      { text: "x = 4", correct: false },
+      ],
+  },
+  {
+    question:"En un grupo de 30 personas, se observa que 12 de ellas tienen el cabello rubio. Si se selecciona una persona al azar, ¿cuál es la probabilidad de que tenga el cabello rubio?",
+    answers: [
+      { text: "0.4", correct: true },
+      { text: "0.3", correct: false },
+      { text: "0.6", correct: false },
+      { text: "0.8", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál es el área de un círculo con radio 5 cm?",
+    answers: [
+      { text: "25π cm^2", correct: true },
+      { text: "50π cm^2", correct: false },
+      { text: "75π cm^2", correct: false },
+      { text: "100π cm^2", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes sistemas de numeración utiliza únicamente los dígitos 0 y 1?",
+    answers: [
+      { text: "Sistema decimal", correct: false },
+      { text: "Sistema binario", correct: true },
+      { text: "Sistema octal", correct: false },
+      { text: "Sistema hexadecimal", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál es el resultado de (x + 2)(x - 2)?",
+    answers: [
+      { text: "x^2 - 2x + 4", correct: false },
+      { text: "x^2 + 2x - 4", correct: false },
+      { text: "x^2 - 4", correct: true },
+      { text: "x^2 - 4x + 4", correct: false },
+      ],
+  },
+  {
+    question:"En una encuesta a 100 personas, se les preguntó sobre su género. Los resultados se resumieron en la siguiente tabla: Género | Frecuencia absoluta Hombre | 60 Mujer | 40  ¿Cuál es la frecuencia relativa de las mujeres en esta encuesta?",
+    answers: [
+      { text: "0.4", correct: false },
+      { text: "0.6", correct: false },
+      { text: "40", correct: true },
+      { text: "60", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál es el resultado de (3^2) × (3^4)?",
+    answers: [
+      { text: "3^6", correct: true },
+      { text: "3^8", correct: false },
+      { text: "3^16", correct: false },
+      { text: "3^24", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de las siguientes afirmaciones describe correctamente el movimiento rectilíneo uniforme (MRU)?",
+    answers: [
+      { text: "La velocidad varía constantemente en magnitud y dirección.", correct: true },
+      { text: "La velocidad es constante en magnitud y dirección.", correct: false },
+      { text: "La aceleración es constante en magnitud y dirección.", correct: false },
+      { text: "La aceleración varía constantemente en magnitud y dirección.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de las siguientes leyes describe la relación entre la fuerza y la aceleración de un objeto?",
+    answers: [
+      { text: "Primera ley de Newton", correct: false },
+      { text: "Segunda ley de Newton", correct: true },
+      { text: "Tercera ley de Newton", correct: false },
+      { text: "Ley de la gravitación universal", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de las siguientes afirmaciones describe correctamente la ley de la gravitación universal?",
+    answers: [
+      { text: "La fuerza gravitatoria entre dos objetos depende de la distancia y la velocidad de los objetos.", correct: false },
+      { text: "La fuerza gravitatoria entre dos objetos depende únicamente de la masa de los objetos.", correct: true },
+      { text: "La fuerza gravitatoria entre dos objetos depende únicamente de la distancia entre ellos.", correct: false },
+      { text: "La fuerza gravitatoria entre dos objetos es siempre repulsiva.", correct: false },
+      ],
+  },
+  {
+    question:"¿Cuál de los siguientes conceptos está relacionado con la transferencia de calor por contacto directo entre cuerpos?",
+    answers: [
+      { text: "Conducción térmica", correct: true },
+      { text: "Radiación térmica", correct: false },
+      { text: "Convección térmica", correct: false },
+      { text: "Dilatación térmica", correct: false },
+      ],
+  },
 ];
 
 const questionElement = document.getElementById("question");
