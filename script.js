@@ -1166,7 +1166,19 @@ function startQuiz() {
   nextButton.innerHTML = "Siguiente";
   showQuestion();
 }
+//Configuración de Firebase
+const firebaseConfig = {
+  apiKey: "AIzaSyBoZzyrlKmUn9fLuchnE_HwvatqMt8OUzM",
+  authDomain: "quizz-9da90.firebaseapp.com",
+  projectId: "quizz-9da90",
+  storageBucket: "quizz-9da90.appspot.com",
+  messagingSenderId: "744058992519",
+  appId: "1:744058992519:web:b9af18040b42ebbc6b4522"
+};
+//Inicialización de Firebase
+firebase.initializeApp(firebaseConfig);
 
+const db= firebase.firestore();
 function showQuestion() {
   resetState();
   let currentQuestion = questions[currentQuestionIndex];
@@ -1215,6 +1227,20 @@ function showScore() {
   questionElement.innerHTML = `Tu puntaje es ${score} de ${questions.length}!`;
   nextButton.innerHTML = "Intentalo de nuevo";
   nextButton.style.display = "block";
+  
+  //Guardar el puntaje en el localStorage
+  saveScoreToFirestore(score);
+}
+
+function saveScoreToFirestore(score){
+  db.collection("scores")
+  .add({ score: score})
+  .then((docRef)=>{
+    console.log("Puntaje enviado exitosamente con ID:",docRef.id);
+  })
+  .catch((error)=>{
+      console.error("Error al enviar el puntaje:",error);
+  });
 }
 
 function handleNextButton() {
