@@ -1001,9 +1001,9 @@ const questions = [
   {
     question:"¿Cuál de los siguientes acontecimientos marcó el inicio de la transición democrática en México en la década de 1990?",
     answers: [
-      { text: "La firma del Tratado de Libre Comercio de América del Norte (TLCAN).", correct: true },
+      { text: "La firma del Tratado de Libre Comercio de América del Norte (TLCAN).", correct: false },
       { text: "La nacionalización de la industria petrolera.", correct: false },
-      { text: "La creación del Instituto Nacional Electoral (INE).", correct: false },
+      { text: "La creación del Instituto Nacional Electoral (INE).", correct: true },
       { text: "El levantamiento del Ejército Zapatista de Liberación Nacional (EZLN).", correct: false },
       ],
   },
