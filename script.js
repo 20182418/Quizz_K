@@ -1225,11 +1225,16 @@ function selectAnswer(e) {
 function showScore() {
   resetState();
   questionElement.innerHTML = `Tu puntaje es ${score} de ${questions.length}!`;
-  nextButton.innerHTML = "Finalizar Examen-IK";
+  nextButton.innerHTML = "Finalizar Examen";
   nextButton.style.display = "block";
+  nextButton.addEventListener("click", redirectToIndex);
   
   //Guardar el puntaje en el localStorage
   saveScoreToFirestore(score);
+}
+
+function redirectToIndex() {
+  window.location.href = "index.html";
 }
 
 function saveScoreToFirestore(score){
