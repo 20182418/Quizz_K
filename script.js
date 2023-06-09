@@ -1292,3 +1292,21 @@ startQuiz();
       }
     }, 0);
 })();
+
+function registrar() {
+    var nombres = document.getElementById("nombres").value;
+    var apellidos = document.getElementById("apellidos").value;
+    var correo = document.getElementById("correo").value;
+    var escuela = document.getElementById("escuela").value;
+  
+ // O simplemente mostrar los datos en la consola
+    console.log("Nombres:", nombres);
+    console.log("Apellidos:", apellidos);
+    console.log("Correo:", correo);
+    console.log("Escuela:", escuela);
+  }
+  
+  
+  
+  
+  
