@@ -1304,7 +1304,7 @@ function registrar() {
   
   // Función para guardar los datos en Firebase
   function guardarEnFirebase(nombres, apellidos, correo, escuela) {
-    scoreCollection
+    scoresCollection
       .add({
         nombres: nombres,
         apellidos: apellidos,
