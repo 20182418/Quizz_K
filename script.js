@@ -1271,7 +1271,7 @@ startQuiz();
     minute = second * 60,
     hour = minute * 60;
 
-  const countDown = new Date().getTime() + 1 * minute, // Retroceso de 2 horas
+  const countDown = new Date().getTime() + 2 * hour, // Retroceso de 2 horas
     x = setInterval(function () {
       const now = new Date().getTime(),
         distance = countDown - now;
