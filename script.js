@@ -1299,13 +1299,25 @@ function registrar() {
     var correo = document.getElementById("correo").value;
     var escuela = document.getElementById("escuela").value;
   
- // O simplemente mostrar los datos en la consola
-    console.log("Nombres:", nombres);
-    console.log("Apellidos:", apellidos);
-    console.log("Correo:", correo);
-    console.log("Escuela:", escuela);
+ guardarEnFirebase(nombres, apellidos, correo, escuela);
   }
   
+  // Función para guardar los datos en Firebase
+  function guardarEnFirebase(nombres, apellidos, correo, escuela) {
+    escoreCollection
+      .add({
+        nombres: nombres,
+        apellidos: apellidos,
+        correo: correo,
+        escuela: escuela
+      })
+      .then(function(docRef) {
+        console.log("Datos guardados correctamente. ID del documento:", docRef.id);
+      })
+      .catch(function(error) {
+        console.error("Error al guardar los datos:", error);
+      });
+  }
   
   
   
