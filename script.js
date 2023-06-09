@@ -1286,10 +1286,8 @@ startQuiz();
 
       // Hacer algo cuando se alcance el tiempo deseado
       if (distance < 0) {
-        document.getElementById("headline").innerText =
-          "¡Se terminó el examen!";
         document.getElementById("countdown").style.display = "none";
-        document.getElementById("content").style.display = "block";
+        showScore();
         clearInterval(x);
       }
     }, 0);
