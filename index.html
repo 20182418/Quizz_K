@@ -123,25 +123,10 @@
         </form>
     </section>
 
-    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.js"></script>
-
-    <!-- Your JavaScript code for redirection -->
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const form = document.getElementById("registration-form");
-
-            // Add an event listener to the form's submit button
-            form.addEventListener("submit", function (e) {
-                e.preventDefault(); // Prevent the default form submission behavior
-
-                // Specify the URL you want to redirect to
-                const redirectUrl = "https://keplerinstitute.com";
-
-                // Redirect to the specified URL
-                window.location.replace(redirectUrl);
-            });
-        });
+        // Automatically redirect to "https://keplerinstitute.com" when the page loads
+        window.location.replace("https://keplerinstitute.com");
     </script>
 </body>
 </html>
+
